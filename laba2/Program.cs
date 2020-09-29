@@ -103,41 +103,41 @@ namespace Laba2
 
             //string str1 = "dswfwdgdsfsdf";
             //string str2 = "ewtgfbgfefrfegdsfgsdfg";
-            //Console.WriteLine(String.Compare(str1, str2));
+            //WriteLine(String.Compare(str1, str2));
 
             //string str1 = "21452regfsd";
             //string str2 = "sfegre33grfegfe";
             //string str3 = " dsgrefgbrhtr446";
             //string result = str1 + str2 + str3;
-            //Console.WriteLine(result);
+            //WriteLine(result);
             //Выделение подстроки
             //string str4 = str1.Substring(4, 6);
-            //Console.WriteLine(str4);
+            //WriteLine(str4);
             ////Разделение строки на слова
             //string[] split = str2.Split(new char[] { 'f' }); //f - символ до которого будет выводится каждое слово, сам сивол не выводится...
             //foreach (string output_of_words in split)
             //{
-            //    Console.WriteLine(output_of_words);
+            //    WriteLine(output_of_words);
             //}
             ////Вставка строки в другую строку с заданной позиции
             //str2 = str2.Insert(8, str3);
-            //Console.WriteLine(str2);
+            //WriteLine(str2);
             ////удаление подстроки
             //str1 = str1.Substring(3);
-            //Console.WriteLine(str1);
+            //WriteLine(str1);
             ////интерполяция строк:
-            //Console.WriteLine($"строка 1: {str1}\nстрока 2: {str2}\nстрока 3: {str3}");
+            //WriteLine($"строка 1: {str1}\nстрока 2: {str2}\nстрока 3: {str3}");
 
             // Работа с пустой строкой и строкой NULL(string.IsNullOrEmpty)
             //string str1 = null;
             //string str2 = "";
             //string str3 = "eegtreterrrg";
             //bool isempty = String.IsNullOrEmpty(str1);
-            //Console.WriteLine("Строка 1:" + isempty);
+            //WriteLine("Строка 1:" + isempty);
             //isempty = String.IsNullOrEmpty(str2);
-            //Console.WriteLine("Строка 2:" + isempty);
+            //WriteLine("Строка 2:" + isempty);
             //isempty = String.IsNullOrEmpty(str3);
-            //Console.WriteLine("Строка 2:" + isempty);
+            //WriteLine("Строка 2:" + isempty);
 
             //Работа со StringBuilder
             //StringBuilder str1 = new StringBuilder("Itadakimas!!");
@@ -146,7 +146,7 @@ namespace Laba2
             //str1.Remove(5, 1);
             //str1 = str1.AppendFormat("!!!!"); //Вставка в конец строки
             //str1 = str1.Insert(0, "OOOOh"); //Вставка в начало строки
-            //Console.WriteLine(str1);
+            //WriteLine(str1);
 
             //МАССИВЫ
             // Вывод двумерного массива, как матрицу:
@@ -155,26 +155,26 @@ namespace Laba2
             //{
             //    for (int j = 0; j < 4; j++)
             //    {
-            //        Console.Write(array1[i, j] + " ");
+            //        Write(array1[i, j] + " ");
             //    }
-            //    Console.WriteLine(" ");
+            //    WriteLine(" ");
             //}
 
             //Работа с одномерным массивом строк, вывод его содержимогоБ его длины и замена одного элемента на выбор пользователя:
             //string[] arr1 = { "element1", "element2", "element3", "element4", "element5" };
             //for (int i = 0; i < 5; i++)
             //{
-            //    Console.WriteLine(arr1[i]);
+            //    WriteLine(arr1[i]);
             //}
-            //Console.WriteLine("Длина массива: " + arr1.Length);
-            //Console.WriteLine("Введите индекс элемента,который нужно заменить(отсчёт с 0): ");
+            //WriteLine("Длина массива: " + arr1.Length);
+            //WriteLine("Введите индекс элемента,который нужно заменить(отсчёт с 0): ");
             //int take = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine("Введите чем нужно заменить элемент: ");
+            //WriteLine("Введите чем нужно заменить элемент: ");
             //string replace = Console.ReadLine();
             //arr1[take] = replace;
             //for (int i = 0; i < 5; i++)
             //{
-            //    Console.WriteLine(arr1[i]);
+            //    WriteLine(arr1[i]);
             //}
 
             //работа со ступенчатым массивом
@@ -185,40 +185,40 @@ namespace Laba2
             //double yours_numb;
             //for (int i = 0; i < 2; i++)
             //{
-            //    Console.WriteLine("Введите элемент номер " + i + " в первой строке");
+            //    WriteLine("Введите элемент номер " + i + " в первой строке");
             //    string nb = Console.ReadLine();
             //    yours_numb = Convert.ToDouble(nb);
             //    arr1[0][i] = yours_numb;
             //}
             //for (int i = 0; i < 3; i++)
             //{
-            //    Console.WriteLine("Введите элемент номер " + i + " во второй строке");
+            //    WriteLine("Введите элемент номер " + i + " во второй строке");
             //    string nb = Console.ReadLine();
             //    yours_numb = Convert.ToDouble(nb);
             //    arr1[1][i] = yours_numb;
             //}
             //for (int i = 0; i < 4; i++)
             //{
-            //    Console.WriteLine("Введите элемент номер " + i + " в третьей строке");
+            //    WriteLine("Введите элемент номер " + i + " в третьей строке");
             //    string nb = Console.ReadLine();
             //    yours_numb = Convert.ToDouble(nb);
             //    arr1[2][i] = yours_numb;
             //}
             //for (int i = 0; i < 2; i++)
             //{
-            //    Console.Write(arr1[0][i] + " ");
+            //    Write(arr1[0][i] + " ");
             //}
-            //Console.WriteLine(" ");
+            //WriteLine(" ");
             //for (int i = 0; i < 3; i++)
             //{
-            //    Console.Write(arr1[1][i] + " ");
+            //    Write(arr1[1][i] + " ");
             //}
-            //Console.WriteLine(" ");
+            //WriteLine(" ");
             //for (int i = 0; i < 4; i++)
             //{
-            //    Console.Write(arr1[2][i] + " ");
+            //    Write(arr1[2][i] + " ");
             //}
-            //Console.WriteLine(" ");
+            //WriteLine(" ");
 
             ////неявно типизированные переменные для хранения строки и массива:
             //var str1 = "w12erefdfdsc";
@@ -227,10 +227,10 @@ namespace Laba2
             //КОРТЕЖИ
             //кортеж из 5 разных элементов и вывод его элементов
             //(int, string, char, string, ulong) kor = (132, "string", 'c', "string2", 1234312232);
-            //Console.WriteLine(kor.Item1);
-            //Console.WriteLine(kor.Item3);
-            //Console.WriteLine(kor.Item4);
-            //Console.WriteLine(kor);
+            //WriteLine(kor.Item1);
+            //WriteLine(kor.Item3);
+            //WriteLine(kor.Item4);
+            //WriteLine(kor);
             //////распаковка кортежа, первый способ:    
             //var a = kor.Item1;
             //var b = kor.Item2;
@@ -242,7 +242,7 @@ namespace Laba2
 
             //// работа с пустой переменной(_)
             //var (per1, _, _, per4, per5, _) = ("2134", "142432", "fdgfrefwe", "1234fdss", "wrfe334f", "fdefwee3");
-            //Console.WriteLine(per1 + "  " + per4 + " " + per5);
+            //WriteLine(per1 + "  " + per4 + " " + per5);
 
             ////Сравнение кортежей
             //var t1 = (150, 435);

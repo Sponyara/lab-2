@@ -289,23 +289,25 @@ namespace Laba2
             //}
 
 
-            //Работа с Checked/unchecked
-            //unch1();
-            //unch2();
-            //static int unch1()//функция для работы с checked
-            //{
-            //    int a;
-            //    int num1 = 2147483647;
-            //    a = checked(num1);
-            //    return num1;
-            //}
-            //static int unch2() //Функция для работы с unchecked
-            //{
-            //    int a;
-            //    int num1 = 2147483647;
-            //    a = unchecked(num1 + 1);
-            //    return num1;
-            //}
+            Console.WriteLine(func_chek());
+            Console.WriteLine(func_unchek());
+
+            static byte func_chek()
+            {
+                byte num = 255;
+                byte a = checked((byte)(num + 1)); // Исключение, т.к. произошло переполнение
+               // byte a = checked(num);
+                return num;
+            }
+
+            static byte func_unchek()
+            {
+                byte a;
+                byte num = 255;
+                a = unchecked((byte)(num + 1)); // Исключения нет
+                return num;
+            }
+
 
             ReadLine();
         }
